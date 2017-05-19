@@ -1,4 +1,4 @@
-Log of what I did 
+What did you do bastard?
 - removed the onboarding part -> ichrome/app/js/onboarding/controller.js
 - changed search redirect to google.com -> ichrome/app/js/search/search.js
 - changed ichrome/index.html
