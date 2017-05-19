@@ -11,17 +11,6 @@ define(["widgets/model"], function(WidgetModel) {
 				items: [
 					{
 						title: "These are sample to-do items"
-					},
-					{
-						title: "This one is important",
-						important: true
-					},
-					{
-						title: "This one is done",
-						done: true
-					},
-					{
-						title: "And this one is undone"
 					}
 				]
 			}

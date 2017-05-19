@@ -1,5 +1,7 @@
 /**
  * This stores the storage defaults.  It's mainly used for comparisons, unextends and resetting iChrome.
+ Widgets are selected using the id that you can find on the manifest.json file
+ for each widget
  */
 define(["i18n/i18n"], function(Translate) {
 	return {
@@ -7,8 +9,11 @@ define(["i18n/i18n"], function(Translate) {
 			columns: [
 				[
 					{
-						id: 1,
-						size: "variable"
+						id: 14,
+						size: "tiny",
+						config: {
+							title: "Google, Inc."
+						}
 					}, {
 						id: 9,
 						size: "tiny"
@@ -16,10 +21,10 @@ define(["i18n/i18n"], function(Translate) {
 						id: 14,
 						size: "tiny",
 						config: {
-							title: "Google, Inc."
+							title: "Apple, Inc."
 						}
 					}, {
-						id: 17,
+						id: 3,
 						size: "variable"
 					}
 				], [
@@ -62,7 +67,7 @@ define(["i18n/i18n"], function(Translate) {
 			toolbar: "full",
 			captureFocus: true,
 			searchInNewTab: false,
-			searchEngine: "default",
+			searchEngine: "Bing",
 			adPlacement: "footer_leaderboard",
 
 			editing: true,

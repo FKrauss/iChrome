@@ -1,6 +1,6 @@
 /**
  * The onboarding guide this is shown once on installation unless a logged in user is synced in
- */
+ 
 define([
 	"lodash", "backbone", "browser/api", "core/analytics", "onboarding/modal", "onboarding/widgets", "onboarding/settings"
 ], function(_, Backbone, Browser, Track, Modal, WidgetGuide, SettingsGuide) {

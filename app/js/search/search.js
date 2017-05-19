@@ -109,8 +109,8 @@ define([
 					});
 				}
 
-
-				var searchURL = "https://ichro.me/search?" +
+// changed it to Google.com instead of the normal one
+				var searchURL = "https://www.google.com/search?" +
 					"ext=" + (Browser.app.newTab ? "newtab" : "main") +
 					"&engine=" + encodeURIComponent(this.model.get("searchEngine") || "default") +
 					"&q=" + encodeURIComponent(val);
