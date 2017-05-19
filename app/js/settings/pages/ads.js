@@ -1,6 +1,6 @@
 /**
  * The ads settings page
- */
+ 
 define([
 	"settings/page", "core/auth", "modals/alert", "i18n/i18n", "storage/storage", "storage/syncapi", "settings/checkout"
 ], function(Page, Auth, Alert, Translate, Storage, SyncAPI, Checkout) {
@@ -58,7 +58,7 @@ define([
 		 * @param   {HTMLElement}  elm    The input element
 		 * @param   {String}       name   The name of the input
 		 * @param   {String}       value  The value of the input
-		 */
+		 
 		onInputChange: function(elm, name, value) {
 			switch (name) {
 				case "adPlacement":
@@ -80,4 +80,4 @@ define([
 	});
 
 	return View;
-});
+});   */
